@@ -15,12 +15,54 @@
 
    <link rel="stylesheet" type="text/css" href="./css/index.css">
 
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Sintony" rel="stylesheet">
+
+
+
 </head>
 
 
+
 <body>
+<!-- 
+
+Rotating Drop Down Nav Bar
+
+
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="brand-icon">Your<span class="color-change">Brand</span></div>
+        <div class="menu-icon">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item">Home</li>
+                <li class="nav__list-item">About</li>
+                <li class="nav__list-item">Projects</li>
+                <li class="nav__list-item">Contact</li>
+            </ul>
+        </div>
+    </div>
+<section class="intro">
+  <div class="container">
+    <div class="row">
+       <div class="col-lg-12">
+         <h3>Click The Menu Icon</h3>
+         <p>You'll see the menu drop down at a 45 degree angle.</p>
+        </div>
+      </div>
+   </div>
+</section>  
+
+ -->
+
+
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-secondary">
 		
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#simple-nav">
 			
@@ -47,9 +89,12 @@
 				</li>
 			</ul>
 		</div>
+
+
+  <img id="logo" src="./Images/logo.png" class="my-n4">
+		
 	</nav>
-
-
+ 
 
 
 <div id="container" class="container-fluid p-5 mt-5 text-center">
@@ -63,18 +108,29 @@
 
 
 	   <div>
-	      <h1 id="Jestan" class="mt-5 mb-n1 ml-1">Jestan</h1>
-	      <h1 id="Mendame" class="mt-n5 ml-1">Mendame</h1>
-         <h4 id=s_engineer class="mt-n2 ml-1"> <u><b><em>Software Engineer / Web Designer</em></b></u></h4>
-         <h5 align="left" class="mt-3 ml-1">I build and design websites. Let me worry about your website while you handle the rest of your business.</h5>
+	      <h1 id="Jestan" class="display-4 mt-5 mb-n3 text-center text-xl-left">Jestan</h1>
+	      <h1 id="Mendame" class="display-4 text-center text-xl-left">Mendame</h1>
+         <h4 id=s_engineer class="mt-n2 ml-1 text-center text-xl-left"> <u><b><em>Software Engineer / Web Designer</em></b></u></h4>
+         <h5 align="left" class="mt-3 ml-1 text-sm-center">I build and design websites. Let me worry about your website while you handle the rest of your business.</h5>
       </div>
-
-	  
+      </div>
   </div>
-
 </div>
 
-<h1 class="text-center"><u>Projects</u></h1>
+<h4 class="text-center mt-5 ml-1">
+         	<a href="#myproject"><b><u>See Projects <i class="fa-solid fa-arrow-down"></i></u></b>
+         	</a>
+         </h4>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h1 id="myproject" class="text-center"><u>Projects</u></h1>
 
 <div class="container rounded container-fluid bg-white p-3 my-5 mx-auto">
 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -130,6 +186,10 @@
 	 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+	 <script type="text/javascript" src="jquery-3.3.1.js"></script>
+<script src="./js/index.js"></script>
+
 </body>
 
 <footer class="bg-dark p-3">
@@ -142,7 +202,7 @@
 
 
 
-	   <a href="https://facebook.com" target="_blank" class="mx-2"> <i class="fab fa-brands fa-facebook-f"> </i>
+	   <a href="https://facebook.com" target="https://www.facebook.com/jestandale.mendame/" class="mx-2"> <i class="fab fa-brands fa-facebook-f"> </i>
 	   </a>
 
 	   <a href="https://www.linkedin.com/" target="_blank" class="mx-3"> <i class="fab fa-brands fa-linkedin-in"> </i>
@@ -156,5 +216,4 @@
 
 	</div>
 </footer>
-aaaaaaaa
 </html>

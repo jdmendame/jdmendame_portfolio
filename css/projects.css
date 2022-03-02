@@ -1,0 +1,11 @@
+*{font-family: "Smooch Sans", sans-serif;}
+
+body{background-color: skyblue;
+  background-image: linear-gradient(to right, whitesmoke ,lightsteelblue, ghostwhite);
+}
+
+#Jestan{font-family:"Russo One", sans-serif;}
+
+#jestanimg{height:500px ;width: 500px ;}
+
+#aboutus{font-size: 30px;}
